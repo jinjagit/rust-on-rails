@@ -13,7 +13,7 @@ methods!(
 
     fn pub_hello() -> RString {
         RString::new_utf8(
-          "Hello (again) from Rutie example_rust_lib!"
+          "Hello (again 2) from Rutie example_rust_lib!"
         )
     }
 );

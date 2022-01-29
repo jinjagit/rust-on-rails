@@ -1,5 +1,0 @@
-cargo:rustc-link-search=/home/j/.rbenv/versions/2.7.2/lib
-cargo:rustc-link-lib=ruby
-cargo:rustc-link-search=native=/home/j/.rbenv/versions/2.7.2/lib
-cargo:rustc-link-lib=dylib=ruby
-cargo:rustc-link-lib=m
