@@ -10,5 +10,5 @@ The workflow I have found (not the same as the [docs](https://usehelix.com/getti
 4. `bundle install` again (to pick up crate as gem - not sure this is needed, but maybe 1st time after crate created?)
 5. Run `rake build` (succeeds but ends with segmentation fault = not very reassuring)
 
-Repeat 3 & 5 as edit the Rust file.
+Repeat 5 whenever edit the Rust file.
 
