@@ -12,3 +12,10 @@ The workflow I have found (not the same as the [docs](https://usehelix.com/getti
 
 Repeat 5 whenever edit the Rust file.
 
+## What about Rutie?
+
+Clearly, Helix has some issues, and is now a deprecated project. So, what about Rutie?
+
+Interesting article on why Deliveroo chose Rutie over Helix: [Moving from Ruby to Rust](https://deliveroo.engineering/2019/02/14/moving-from-ruby-to-rust.html#performance-improvements)
+
+Let's try following this tutorial: https://vericred.com/using-rust-to-speed-up-your-ruby-apps-part-2-how-to-use-rust-with-ruby/
