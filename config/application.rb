@@ -14,6 +14,7 @@ require "action_view/railtie"
 require "action_cable/engine"
 require "sprockets/railtie"
 require "rails/test_unit/railtie"
+require 'rutie'
 
 # Require the gems listed in Gemfile, including any gems
 # you've limited to :test, :development, or :production.
@@ -31,5 +32,9 @@ module RustOnRails
     #
     # config.time_zone = "Central Time (US & Canada)"
     # config.eager_load_paths << Rails.root.join("extras")
+
+    Rutie
+    .new(:example_rust_lib, lib_path: 'target/release')
+    .init('Init_example_rust_lib', 'example_rust_lib')
   end
 end
