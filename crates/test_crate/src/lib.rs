@@ -4,7 +4,7 @@ extern crate helix;
 ruby! {
     class TestCrate {
         def hello() -> String {
-            return "Testing test_crate!".to_string();
+            return "Hello from Rust test_crate!".to_string();
         }
     }
 }
